@@ -6,13 +6,13 @@ class App < Sinatra::Base
   end
   
   post '/team' do 
-   # @team = params[:team]
+   # @team = params[:name]
    # @coach = params[:coach]
-   # @pguard = params[:pguard]
-   # @sguard = params[:sguard]
-   # @sforward = params[:sforward]
-   # @pforward = params[:pforward]
-   # @center = params[:center]
+   # @pguard = params[:pg]
+   # @sguard = params[:sg
+   # @sforward = params[:sf]
+   # @pforward = params[:pf]
+   # @center = params[:c]
     puts params.to_s
     erb :team
   end
