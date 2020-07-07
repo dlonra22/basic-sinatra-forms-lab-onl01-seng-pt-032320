@@ -13,6 +13,7 @@ class App < Sinatra::Base
     @sforward = params[:sforward]
     @pforward = params[:pforward]
     @center = params[:center]
+    puts params.to_s
     erb :team
   end
 
